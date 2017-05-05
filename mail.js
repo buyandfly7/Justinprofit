@@ -66,6 +66,7 @@ $(function(){
   var converse = 16;
   var check = 350;
   var offright = 0;
+  var clients = $('#how_much_clients span').text();
 
   $( "#slider" ).slider({
     value: clicks,
@@ -76,8 +77,9 @@ $(function(){
 
       $( "#slider a" ).text( ui.value );
       clicks = ui.value;
+      clients = $('#how_much_clients span').text();
       $('#how_much_clients span').html((clicks * converse/100).toFixed(0));
-
+      $('#cmnsd').html((clients * check).toFixed(0));
       if ( ui.value <= 100 ) {$("#slider").slider('option', 'step', 10);}
       if ( ui.value <= 700 ) {$("#slider").slider('option', 'step', 20);}
       if ( ui.value >= 700 ) {$("#slider").slider('option', 'step', 50);}
@@ -96,9 +98,10 @@ $(function(){
     max: 30,
     step: 1,
     slide: function( event, ui ) {
-      converse = ui.value
+      converse = ui.value;
+      clients = $('#how_much_clients span').text();
       $('#how_much_clients span').html((clicks * converse/100).toFixed(0));
-      $('#cmnsd').html((clicks * converse/100*12).toFixed(0));
+      $('#cmnsd').html((clients * check).toFixed(0));
       $( "#slider-1 a" ).text( ui.value );
       $.offset = parseFloat($('#slider-1 a').css('left'));
       //('#omg1').css('width', $.offset+'px');
@@ -115,7 +118,7 @@ $(function(){
     step: 10,
     slide: function( event, ui ) {
       check = ui.value;
-      var clients = $('#how_much_clients span').text();
+      clients = $('#how_much_clients span').text();
       $('#cmnsd').html((clients * check).toFixed(0));
       $( "#slider-2 a" ).text( ui.value );
       $.offset = parseFloat($('#slider-2 a').css('left'));

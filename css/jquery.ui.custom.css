@@ -198,9 +198,9 @@
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border-radius: 50%;
-	border: solid 1px black;
-	background: black !important;
-	color: #ffce00 !important;
+	border: solid 1px #549de0;
+	background: #549de0 !important;
+	color: #ffffff !important;
 	outline: none !important;
 }
 .ui-state-default a,
@@ -235,9 +235,9 @@
 }
 
 .ui-slider-handle:active {
-	font-size: 22px !important;
+	font-size: 13px !important;
 	text-decoration: none !important;
-	color: #393939 !important;
+	color: #ffffff !important;
 	cursor: pointer !important;
 	font-weight: bold !important;
 }
@@ -544,7 +544,6 @@
 .ui-slider-horizontal {
 	background: #5f5f5f;
 	border-radius: 4px !important;
-	height: 20px;
 
 }
 

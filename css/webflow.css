@@ -1725,3 +1725,9 @@ textarea.w-select {
   -ms-transform: rotate(-188deg);
   transform: rotate(-188deg);
 }
+.red-hover:hover{
+  background-color: red !important;
+  transition: 0.5s;
+  border: 3px solid red !important;
+  color: #ffffff;
+}
