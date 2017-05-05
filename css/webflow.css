@@ -1670,3 +1670,58 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+
+/* Calculator */
+#check{
+  margin-top: 40px;
+}
+#how_much_clients {
+  color: #ffce00;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-shadow: 1px 0px 1px black;
+}
+
+#how_much_clients span{
+  color: #5f5f5f;
+}
+.text-center{
+  text-align: center;
+}
+.ml-25{
+  margin-left: 25px!important;
+}
+.ml-150{
+  margin-left: 150px;
+}
+.ml-300{
+  margin-left: 300px;
+}
+#calculator .pull-right p span {
+  font-weight: bold;
+}
+.before-arrow:before{
+  content: '';
+  position: absolute;
+  left: -223px;
+  display: block;
+  width: 147px;
+  height: 34px;
+  margin-top: 167px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/strela.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  opacity: 1;
+  -webkit-transform: rotate(-188deg);
+  -ms-transform: rotate(-188deg);
+  transform: rotate(-188deg);
+}
