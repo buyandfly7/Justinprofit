@@ -193,10 +193,12 @@
 	text-align: center;
 	-webkit-flex: 0 1 330px;
 	flex: 0 1 330px;
+	transition: 0.5s;
 }
 
 .pricing__feature-list {
 	text-align: left;
+	transition: 0.5s;
 }
 
 .pricing__action {
@@ -668,9 +670,11 @@
 		margin: 1.5em 0;
 	}
 	.pricing--pema .pricing__item--featured {
-		z-index: 10;
+		z-index: 5;
 		margin: 0;
-		font-size: 1.15em;
+		transition: 0.5s;
+		cursor: pointer;
+		box-shadow: 0 0 15px rgb(255, 206, 0);
 	}
 }
 
@@ -692,7 +696,7 @@
 	font-weight: 800;
 	color: #ffce00;
 	position: relative;
-	z-index: 100;
+	z-index: 5;
 }
 
 .pricing--pema .pricing__currency {
@@ -773,7 +777,7 @@
 	font-weight: bold;
 	border: 2px solid #382628;
 	position: relative;
-	z-index: 100;
+	z-index: 5;
 }
 
 .pricing--karma .pricing__item--featured .pricing__price::after {
@@ -883,7 +887,7 @@
 	padding: 0.5em 0 0 0;
 	font-weight: 400;
 	position: relative;
-	z-index: 100;
+	z-index: 5;
 }
 
 .pricing--norbu .pricing__currency {
@@ -904,7 +908,6 @@
 }
 
 .pricing--norbu .pricing__feature-list {
-	font-size: 1.15em;
 	margin: 0 2em;
 	letter-spacing: 0;
 	padding: 2em 0;
@@ -1018,7 +1021,7 @@
 }
 
 .pricing--yonten .pricing__item:hover {
-	z-index: 100;
+	z-index: 5;
 }
 
 .pricing--yonten .pricing__item:hover::after {
@@ -1211,7 +1214,7 @@
 	}
 	.pricing--palden .pricing__item--featured {
 		margin: 0;
-		z-index: 10;
+		z-index: 5;
 		box-shadow: 0 0 20px rgba(46, 59, 125, 0.23);
 	}
 }

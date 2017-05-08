@@ -1,5 +1,8 @@
 var selector = 'form'; $(selector).each(function(indx){if($(this).attr('action') === undefined){$(this).attr('action', '/').attr('method','post');}});
 $(function(){
+  $(".pricing__item").hover(function () {
+    $(this).toggleClass("pricing__item--featured");
+  });
   $(selector+'[action = "/"]').submit(function(e) {
 
     hide = 0; // 1 - прятать форму после отправки (0 - не прятать)
