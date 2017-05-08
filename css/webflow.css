@@ -1707,6 +1707,9 @@ textarea.w-select {
 #calculator .pull-right p span {
   font-weight: bold;
 }
+.before-arrow{
+  position: relative;
+}
 .before-arrow:before{
   content: '';
   position: absolute;
