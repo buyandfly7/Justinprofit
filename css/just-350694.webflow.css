@@ -210,7 +210,7 @@ margin: 0 auto;
 
 
 /* end additional */
-
+textarea { resize: none; }
 
 .se1 {
   height: auto;
