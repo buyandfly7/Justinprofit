@@ -216,8 +216,8 @@ margin: 0 auto;
   height: auto;
   padding-top: 10%;
   padding-bottom: 1%;
-  background-image: -webkit-radial-gradient(circle farthest-corner at 24% 12%, hsla(0, 0%, 100%, .99), hsla(0, 0%, 100%, .37) 40%, hsla(0, 0%, 100%, 0) 44%), url('../images/Sail.png');
-  background-image: radial-gradient(circle farthest-corner at 24% 12%, hsla(0, 0%, 100%, .99), hsla(0, 0%, 100%, .37) 40%, hsla(0, 0%, 100%, 0) 44%), url('../images/Sail.png');
+  background-image: -webkit-radial-gradient(circle farthest-corner at 24% 12%, hsla(0, 0%, 100%, .99), hsla(0, 0%, 100%, .37) 40%, hsla(0, 0%, 100%, 0) 44%), url('../images/Sail.jpg');
+  background-image: radial-gradient(circle farthest-corner at 24% 12%, hsla(0, 0%, 100%, .99), hsla(0, 0%, 100%, .37) 40%, hsla(0, 0%, 100%, 0) 44%), url('../images/Sail.jpg');
   background-position: 0px 0px, 50% 77%;
   background-size: auto, cover;
 }
