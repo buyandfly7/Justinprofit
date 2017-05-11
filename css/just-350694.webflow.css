@@ -43,8 +43,10 @@
   vertical-align: top;
   font-size: 1rem;
 }
-.chips__item--3_col {
-  width: 320px;
+.chips__item--34_col {
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .chips__item--4_col {
   width: 240px;
@@ -53,7 +55,43 @@
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter:         drop-shadow(1px 1px 1px #000);
 }
-
+.mb-25{
+  margin-bottom: 25px;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.mb-80{
+  margin-bottom: 80px;
+}
+.special h3{
+  text-align: center;
+  font-size: 35px;
+  font-family: Segoewp, sans-serif;
+  text-transform: uppercase;
+  color: #5f5f5f;
+}
+.special .pricing__sentence{
+  font-size: 28px;
+  color: #5f5f5f;
+  line-height: initial;
+  margin-top: 10px;
+}
+.special .pricing__price{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  background: #ffce00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.special .buttom._2{
+  margin-top: 14px;
+}
 .chips__item--2_col p{
 width: 80%;
 text-align: center;
@@ -834,6 +872,7 @@ margin: 0 auto;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 60px
 }
 
 .se5 {
