@@ -1,3 +1,179 @@
+/* Additional Section Why */
+.section--ad_company .h2{
+  color: #ffffff;
+}
+.layout--center {
+  display: block;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+.chips {
+  font-size: 0;
+}
+.chips--3_col {
+  margin-top: 120px;
+}
+.chips--4_col {
+  margin-top: 60px;
+}
+.chips--progress {
+  margin-top: 120px;
+}
+.chips--2_col {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+.chips__desc {
+  width: 185px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.chips__desc--2_col {
+  width: 410px;
+  margin-left: 0;
+}
+.chips__desc--2_col_2 {
+  width: 220px;
+  text-align: left;
+  margin-left: 0;
+}
+.chips__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1rem;
+}
+.chips__item--3_col {
+  width: 320px;
+}
+.chips__item--4_col {
+  width: 240px;
+  text-align: center;
+  margin-bottom: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(1px 1px 1px #000);
+}
+
+.chips__item--2_col p{
+width: 80%;
+text-align: center;
+margin: 0 auto;
+}
+.chips__item--2_col {
+  width: 50%;
+  text-align: center;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(1px 1px 1px #000);
+  color:#ffffff;
+}
+.chips__text--2_col {
+  color: #ffffff;
+  line-height: 1.2em;
+}.chips__text
+ {
+   font-size: 1.2em;
+ }
+.chips__header {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin: 0;
+}
+.chips__header--white {
+  width: 200px;
+  display: block;
+  margin: 30px auto;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.chips__icon {
+  width: 102px;
+  height: 102px;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+}
+.section--ad_company {
+  background-image: url("../images/chips/pexels-photo.jpg");
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-size: cover;
+}
+.chips__icon--1 {
+  background-image: url("../images/chips/chips__icon--1.png");
+}
+.chips__icon--2 {
+  background-image: url("../images/chips/chips__icon--2.jpg");
+}
+.chips__icon--3 {
+  background-image: url("../images/chips/chips__icon--3.jpg");
+}
+.chips__icon--4 {
+  background-image: url("../images/chips/chips__icon--4.png");
+}
+.chips__icon--5 {
+  background-image: url("../images/chips/chips__icon--5.jpg");
+}
+.chips__icon--2_1 {
+  background-image: url("../images/chips/chips__icon--2_1.png");
+}
+.chips__icon--2_2 {
+  background-image: url("../images/chips/chips__icon--2_2.png");
+}
+.chips__icon--2_3 {
+  background-image: url("../images/chips/chips__icon--2_3.png");
+}
+.chips__icon--2_4 {
+  background-image: url("../images/chips/chips__icon--2_4.png");
+}
+.chips__icon--2_5 {
+  background-image: url("../images/chips/chips__icon--2_5.png");
+}
+.chips__icon--2_6 {
+  background-image: url("../images/chips/chips__icon--2_6.png");
+}
+.chips__icon--2_7 {
+  background-image: url("../images/chips/chips__icon--2_7.png");
+}
+.chips__icon--2_8 {
+  background-image: url("../images/chips/chips__icon--2_8.png");
+}
+.chips__icon--2_9 {
+  background-image: url("../images/chips/chips__icon--2_9.png");
+}
+.chips__icon--2_10 {
+  background-image: url("../images/chips/chips__icon--2_10.png");
+}
+.chips__icon--2_11 {
+  background-image: url("../images/chips/chips__icon--2_11.png");
+}
+.chips__icon--2_12 {
+  background-image: url("../images/chips/chips__icon--2_12.png");
+}
+.chips__icon--3_1 {
+  background-image: url("../images/chips/chips__icon--3_1.png");
+}
+.chips__icon--3_2 {
+  background-image: url("../images/chips/chips__icon--3_2.png");
+}
+.chips__icon--3_3 {
+  background-image: url("../images/chips/chips__icon--3_3.png");
+}
+.chips__icon--3_4 {
+  background-image: url("../images/chips/chips__icon--3_4.png");
+}
+.chips__icon--4_1 {
+  background-image: url("../images/chips/chips__icon--4_1.png");
+  height: 112px;
+}
+.chips__icon--4_2 {
+  background-image: url("../images/chips/chips__icon--4_2.png");
+  height: 112px;
+}
+
+
+/* end additional */
+
+
 .se1 {
   height: auto;
   padding-top: 10%;
